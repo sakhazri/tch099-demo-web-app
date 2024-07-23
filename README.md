@@ -29,7 +29,7 @@ This repo will be used as demo php web app to deploy on azure cloud
 │   ├── logout.php              # API endpoint for user logout
 │   ├── randomimage.php         # API endpoint to get a random image
 │   ├── signup.php              # API endpoint for user signup
-│   └── user_details.php        # API endpoint to fetch user details
+│   ├── user_details.php        # API endpoint to fetch user details
 │   └── clients.php             # API endpoint to fetch all clients
 
 ├── db/                         # Folder containing SQL scripts for database setup
@@ -284,6 +284,7 @@ docker-compose up -d --build
 
 ### 4. Add Startup Command
 ```bash
+# put this line into the startup command
 cp /home/site/wwwroot/nginx.conf /etc/nginx/sites-available/default && service nginx reload
 ```
 
