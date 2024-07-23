@@ -35,7 +35,7 @@ This repo will be used as demo php web app to deploy on azure cloud
 ├── db/                         # Folder containing SQL scripts for database setup
 │   ├── 1create.sql              # SQL script for creating database tables
 │   ├── 2contraines.sql          # SQL script for adding constraints
-│   └── 3insert.sql              # SQL script for inserting initial data into database tables
+│   ├── 3insert.sql              # SQL script for inserting initial data into database tables
 │   └── db.py                # Python script to create, alter and inserting initial data into database tables
 
 ├── frontend/                   # Folder containing frontend assets and pages
